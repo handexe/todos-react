@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap; /* Satır dolarsa bir alt satıra geçmesini sağlar */
+  justify-content: center; /* Butonları yatayda ortalar */
+  gap: 10px; /* Butonlar arasında boşluk */
+  margin-top: 10px; /* Üstten boşluk bırakır */
+
+}
+.filters {
+  display: flex;
+  gap: 10px;
+  justify-content: center; /* Ortalar */
+}
+.filter {
+  background-color: transparent;
+  border: none;
+  color: #f8edff;
+  cursor: pointer;
+  font-size: 14px;
+  border-style: inset;
+  border-radius: 15px;
+  padding: 10px;
+  border-width: 1px;
+}
+
+.filter:hover {
+  color: #252b52;
+}
